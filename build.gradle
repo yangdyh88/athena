@@ -1,0 +1,6 @@
+allprojects {
+  task wrapper(type: org.gradle.api.tasks.wrapper.Wrapper) {
+    gradleVersion = '4.6'
+  }
+}
+
